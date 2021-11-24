@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Tourney", 600 italic;
+    src: url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,600&display=swap");
+}
+@font-face {
+    font-family: "Gugi", 400;
+    src: url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+}
+    @keyframes atmain {
+        from{margin-top: -20%}
+        to{margin-top:15%}
+    }
+
+body{
+    background: url("https://i.pinimg.com/originals/91/71/12/91711260a71186788516b97fab5dcf1e.gif"); background-size: 100%;
+}
+main{
+    margin: 15% 0% 0% 30%; border-radius: 9px; box-sizing: border-box; border: 3px solid white;
+    color: white; animation: atmain 3s forwards; text-align: center; width: 500px; background-color: black;
+}
+h1{
+    font-family: "Tourney", cursive; font-size: 60px;
+}
+h2{
+    font-family: "Gugi", sans-serif;
+}
+@keyframes atmain2 {
+    from{margin-top: -100px;
+    to{margin-top:10000px}}
+button{font-family: "Gugi", sans-serif; color: black; font-size: 30px; border: 1px solid violet; cursor: pointer;}
+
+

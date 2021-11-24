@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Faster One';
+   src: url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");}
+   @font-face{
+       font-family: "Gugi" 400;
+       src: url("https://fonts.googleapis.com/css2?family=Gugi&display=swap")
+   }
+
+   @keyframes fundo{
+       0%{background-position: 0% 50%}
+       50%{background-position: 100% 50%}
+       100%{background-position: 50% 100%}
+   }
+   @-moz-keyframes fundo{
+       0%{background-position: 0% 50%}
+       50%{background-position: 100% 50%}
+       100%{background-position: 50% 100%}
+   }
+   @-webkit-keyframes fundo {
+       0%{background-position: 0% 50%}
+       50%{background-position: 100% 50%}
+       100%{background-position: 50% 100%}
+   }
+
+   @keyframes animabotao{
+       from{margin-left: 0%}
+       to{margin-left: 38%}
+   }
+   @keyframes a{
+       0%{
+           
+       }
+       50%{
+            border: 8px solid black
+       }
+       100%{
+          
+       }
+   }
+body{
+   margin: 0px; 
+   background: linear-gradient(270deg,  rgb(150, 150, 243), rgb(179, 179, 247), violet, #ffffff, rgb(103, 103, 252), rgb(139, 139, 139));
+   background-size: 600% 600%;
+
+   -webkit-animation: fundo 10s ease infinite;
+   -moz-animation: fundo 10s ease infinite;
+   animation: fundo 10s ease infinite;
+}
+header{
+background:yellow; font-family: "Faster One", cursive; 
+font-size: 75px; text-align: center; margin-top: 0px;
+}
+p{
+   font-family: "Gugi", cursive; font-size: 21px; margin-left: 400px; margin-right: 400px;
+   border: 7px solid violet; background: black; color: violet; cursor: default
+   
+}
+h2{
+    color: blue; text-shadow: 1px white;
+}
+nav{
+   font-family:"Faster One", cursive; font-size:45px; animation: animabotao 3s forwards; 
+   background-color: yellow; position: absolute; border-radius: 17px; text-align: center;
+
+   
+}
+.outraan{animation: a 3s infinite; width: 300px;border-radius: 17px; cursor: pointer ;}
+.outraan:hover{background-color: blue}
+@media all (max-width:1000px), (orientation: portrait){p{margin-left: 5%; margin-right: 5%}}
+

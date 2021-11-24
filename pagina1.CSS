@@ -1,0 +1,87 @@
+<style>
+@font-face {
+    font-family: 'Faster One';
+    src: url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");}
+@font-face {
+    font-family: 'Tourney' 600 italic;
+    src: url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,600&display=swap");}
+@font-face{ font-family: 'Bungee Shade' Regular 400;
+    src: url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");}
+	@font-face{
+		font-family: "Quantico", bold 700 italic;
+		src: url("https://fonts.googleapis.com/css2?family=Praise&display=swap");
+	}
+body  {
+	background: url("https://i.gifer.com/8hb.gif");
+}
+@keyframes md{from{font-size: 0px;}to{font-size: 45px; color: black;}}
+@keyframes aumtammedia{from{width:500px;}to{width:99%;}}
+@keyframes aumtam{from{width:500px}to {width: 650px; }}
+.principalcontent{ box-sizing: border-box; border:2px transparent red; float: left; 
+ width: 500px; animation: aumtam 5s; animation-fill-mode: forwards;
+  background-size:150%;
+background: yellow; 
+ }
+ .animeted{animation: md 9s ease-out 1; animation-fill-mode:forwards}
+.doisel{text-align: center;}
+h1{font-family: 'Faster One', cursive; font-size: 60px; background-image: linear-gradient(to bottom, white, black, red);
+background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; word-spacing: 5px;
+margin:1px; line-height: 36pt; 
+}
+h2{font-family: 'Tourney', cursive; font-size: 35px; background-image: linear-gradient(to right,  black,black, red, black, black); 
+background-clip: text; -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; line-height: 24pt; }
+.fontemaior{font-size: 40px}
+.bg{font-family: 'Bungee Shade', cursive; color: red; font-size:50px; margin-top:10px}
+.jogadores{display: flex; justify-content: space-around; text-align: center;
+}
+
+.buttonloc{margin-top: 70px; margin-left: 900px;}
+ .lewis{box-sizing: border-box; border:1px outset black; width: 230px; overflow: hidden; position: relative;
+border-radius: 13px}
+ .inham{ z-index: -1;
+	width: 230%;
+	height: 600%;
+    position: absolute;
+    animation: gra 5s infinite;
+    -webkit-animation: gra 5s infinite;
+    background: linear-gradient(635deg, rgb(3,139, 110) 0%, rgb(0, 255, 255) 20%, #ffffff 50%, #00ffb3 80%, rgb(0, 255, 200) 100%);
+    background: -webkit-linear-gradient(635deg, rgb(3, 139, 110) 0%, rgb(0, 255, 255) 20%, #ffffff 50%, #00ffb3 80%, rgb(0, 255, 200) 100%);}
+    .lewis:visited{border: 7px outset violet}
+.verst{box-sizing: border-box; border:1px outset black; width: 230px; overflow: hidden; position: relative;
+	border-radius: 13px}
+.inverst{ z-index: -1;
+	width: 230%;
+	height: 600%;
+    position: absolute;
+    animation: gra 5s infinite;
+    -webkit-animation: gra 5s infinite;
+    background: linear-gradient(635deg, red 0%, yellow 20%, orange 50%, yellow 80%, yellow 100%);
+    background: -webkit-linear-gradient(635deg, red 0%, yellow 20%, orange 50%, yellow 80%, yellow 100%);}
+    .verst:visited{border: 7px outset violet}
+.alonso{box-sizing: border-box; border:1px outset black; width: 230px;overflow: hidden; position: relative;
+	border-radius: 13px }
+.infer{ z-index: -1;
+	width: 230%;
+	height: 600%;
+    position: absolute;
+    animation: gra 5s infinite;
+    -webkit-animation: gra 5s infinite;
+    background: linear-gradient(665deg, rgb(3, 3, 122) 0%, rgb(179, 179, 247) 20%, #ffffff 50%, blue 80%, blue 100%);
+    background: -webkit-linear-gradient(635deg, rgb(3, 3, 122) 0%, rgb(179, 179, 247) 20%, #ffffff 50%, blue 80%, blue 100%);}
+    .alonso:visited{border: 7px outset violet;}
+.jogadores .pic{height: 170px; width:200px;
+    }
+.alig{margin-top: 100px}
+a{text-decoration: none;}
+@keyframes gra {
+    0% { left: -130%; top: -130%; }
+    50% { left: 0%; top: 0%; }
+    100% { left: -130%; top: -130%; }}
+p{font-family: "Quantico", sans-serif; font-size:18.5px; color: black; line-height: 18.5px; word-spacing: -2.5px; text-align: left;}
+@media all (max-width: 600px), (orientation: portrait){.jogadores{height:400px}body{background-size: 70%}
+ .principalcontent{float: none; animation: aumtammedia 5s forwards;}.fontemaior{font-size: 30px;}.buttonloc{margin-left:400px}}
+ .font{font-family:"Faster One", cursive; font-size:40px; background-color: yellow}
+ 
+</style>
+

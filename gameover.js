@@ -1,0 +1,1 @@
+function voltapagin(){window.location.href="./investigando.html"}
