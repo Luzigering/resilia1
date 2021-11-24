@@ -66,5 +66,8 @@ nav{
 }
 .outraan{animation: a 3s infinite; width: 300px;border-radius: 17px; cursor: pointer ;}
 .outraan:hover{background-color: blue}
-@media all (max-width:1000px), (orientation: portrait){p{margin-left: 5%; margin-right: 5%}}
+@media all (max-width:1000px), (orientation: portrait){
+    p{margin-left: 5%; margin-right: 5%; font-size:50px;
+    }
+
 

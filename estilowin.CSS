@@ -26,8 +26,9 @@ h2{
 }
 
 button{font-family: "Gugi", sans-serif; color: black; font-size: 30px; border: 1px solid violet; cursor: pointer;}
-@media all (max-width: 800px),(orientation: portrait){main{margin: 30%; animation: atmain2 7s forwards}@keyframes atmain2 {
+@media all (max-width: 800px),(orientation: portrait){main{margin: 6% 16%; animation: atmain2 7s forwards; width: 650px}@keyframes atmain2 {
     from{margin-top: -20%}
     to{margin-top:60%}
-}}
+} 
+        h1{font-size: 70px} h2{font-size: 40px} button{font-size: 54px}}
 
