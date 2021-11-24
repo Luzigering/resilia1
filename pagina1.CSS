@@ -34,11 +34,12 @@ background-clip: text; -webkit-background-clip: text;
 .fontemaior{font-size: 40px}
 .bg{font-family: 'Bungee Shade', cursive; color: red; font-size:50px; margin-top:10px}
 .jogadores{display: flex; justify-content: space-around; text-align: center;
+  
 }
 
 .buttonloc{margin-top: 70px; margin-left: 900px;}
  .lewis{box-sizing: border-box; border:1px outset black; width: 230px; overflow: hidden; position: relative;
-border-radius: 13px}
+border-radius: 13px;   height:400px;}
  .inham{ z-index: -1;
 	width: 230%;
 	height: 600%;
@@ -49,7 +50,7 @@ border-radius: 13px}
     background: -webkit-linear-gradient(635deg, rgb(3, 139, 110) 0%, rgb(0, 255, 255) 20%, #ffffff 50%, #00ffb3 80%, rgb(0, 255, 200) 100%);}
     .lewis:visited{border: 7px outset violet}
 .verst{box-sizing: border-box; border:1px outset black; width: 230px; overflow: hidden; position: relative;
-	border-radius: 13px}
+	border-radius: 13px;  height:400px;}
 .inverst{ z-index: -1;
 	width: 230%;
 	height: 600%;
@@ -60,7 +61,7 @@ border-radius: 13px}
     background: -webkit-linear-gradient(635deg, red 0%, yellow 20%, orange 50%, yellow 80%, yellow 100%);}
     .verst:visited{border: 7px outset violet}
 .alonso{box-sizing: border-box; border:1px outset black; width: 230px;overflow: hidden; position: relative;
-	border-radius: 13px }
+	border-radius: 13px;  height:400px; }
 .infer{ z-index: -1;
 	width: 230%;
 	height: 600%;
@@ -80,9 +81,10 @@ a{text-decoration: none;}
     100% { left: -130%; top: -130%; }}
 p{font-family: "Quantico", sans-serif; font-size:18.5px; color: black; line-height: 18.5px; word-spacing: -2.5px; text-align: left;}
 @media all (max-width: 600px), (orientation: portrait){.jogadores{height:400px}body{background-size: 70%}
- .principalcontent{float: none; animation: aumtammedia 5s forwards;}.fontemaior{font-size: 30px;}.buttonloc{margin-left:400px}}
+ .principalcontent{float: none; animation: aumtammedia 5s forwards;}.fontemaior{font-size: 30px;}.buttonloc{margin-left:400px}  p{font-size: 40px; line-height:35px} .alig{margin-top: 5px}  .lewis{width: 250px; height: 700px} .verst{width: 250px;  height: 700px } .alonso{width: 250px;  height: 700px}}
+
  .font{font-family:"Faster One", cursive; font-size:40px; background-color: yellow} .jogadores{display: flex; justify-content: :space-between; height: 679px;}
-    p{font-size: 40px; line-height:35px} .alig{margin-top: 5px}  .lewis{width: 250px} .verst{width: 250px} .alonso{width: 250px}}
+   
  
 </style>
 
