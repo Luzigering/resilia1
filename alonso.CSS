@@ -68,6 +68,9 @@ nav{
 .outraan:hover{background-color: blue}
 @media all (max-width:1000px), (orientation: portrait){
     p{margin-left: 5%; margin-right: 5%; font-size:50px;
-    }
+    } nav{font-size: 100px} .outraan{width: 670px}
+    @keyframes animabotao{
+        from{margin-left: 0%}
+        to{margin-left: 14%}}}
 
 
