@@ -80,7 +80,7 @@ a{text-decoration: none;}
     100% { left: -130%; top: -130%; }}
 p{font-family: "Quantico", sans-serif; font-size:18.5px; color: black; line-height: 18.5px; word-spacing: -2.5px; text-align: left;}
 @media all (max-width: 600px), (orientation: portrait){.jogadores{height:400px}body{background-size: 70%}
- .principalcontent{float: none; animation: aumtammedia 5s forwards;}.fontemaior{font-size: 30px;}.buttonloc{margin-left:400px}}
+ .principalcontent{float: none; animation: aumtammedia 5s forwards; margin:30% 0px 0px 0px}.fontemaior{font-size: 30px;}.buttonloc{margin-left:400px}}
  .font{font-family:"Faster One", cursive; font-size:40px; background-color: yellow}
  
 </style>

@@ -24,9 +24,10 @@ h1{
 h2{
     font-family: "Gugi", sans-serif;
 }
-@keyframes atmain2 {
-    from{margin-top: -100px;
-    to{margin-top:10000px}}
-button{font-family: "Gugi", sans-serif; color: black; font-size: 30px; border: 1px solid violet; cursor: pointer;}
 
+button{font-family: "Gugi", sans-serif; color: black; font-size: 30px; border: 1px solid violet; cursor: pointer;}
+@media all (max-width: 800px),(orientation: portrait){main{margin: 30%; animation: atmain2 7s forwards}@keyframes atmain2 {
+    from{margin-top: -20%}
+    to{margin-top:60%}
+}}
 
